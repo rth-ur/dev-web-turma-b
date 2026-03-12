@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefas</title>
+    <script src="script.js"></script>
+    <style>
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: #f2f2f2;
+            padding: 16px;
+        }
+
+        h1 {
+            color: cadetblue;
+            text-align: center;
+        }
+
+        .input-area {
+            text-align: center;
+            margin-bottom: 25px;
+
+        }
+
+        #tarefaInput {
+            padding: 8px;
+            border-radius: 8px;
+            border: cadetblue solid 1px;
+        }
+
+        #btnAdicionar {
+            padding: 8px 12px;
+            color: #f2f2f2;
+            background-color: cadetblue;
+            border: 0px;
+            border-radius: 8px;
+        }
+
+        #btnAdicionar:hover {
+            background-color: rgb(65, 107, 108);
+            color: white;
+            transition: 0PX;
+        }
+
+        #listaTarefas {
+            padding: 0px;
+        }
+
+        li {
+            background-color: white;
+            padding: 10px;
+            border-radius: 8px;
+            width: 130PX;
+            border: cadetblue dotted 2px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .fechar {
+            background-color: darkred;
+            border-radius: 100px;
+            border: 0px;
+            color: white
+        }
+
+        .concluida {
+            text-decoration: line-through;
+            color: gray;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Tarefas</h1>
+    <div class="input-area">
+        <input id="tarefaInput" type="text" placeholder="Digite sua tarefa!">
+        <button id="btnAdicionar">+</button>
+    </div>
+    <ul id="listaTarefas">
+        <!-- <li>Estudar</li> -->
+
+    </ul>
+</body>
+
+</html>
