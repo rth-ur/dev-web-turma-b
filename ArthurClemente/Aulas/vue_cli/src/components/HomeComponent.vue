@@ -7,7 +7,6 @@
     </template>
 
 <script>
-import { normalizeClass } from 'vue';
 
     export default{
         name: "HomeComponent",
