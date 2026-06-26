@@ -27,7 +27,7 @@
 
 ```vue
 <!-- Exemplo: Sistema de Alertas -->
-<div v-if="alertas.length > 0" class="alerts-container">
+<div v-if="alertas.length > 0" class="alerts-container" >
   <div
     v-for="(alerta, idx) in alertas"
     :key="idx"

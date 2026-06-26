@@ -1,8 +1,9 @@
 {
     "version": 3,
+    "rootDirectory": "tpizzaria",
     "builds": [
         {
-            "src": "tpizzaria/package.json",
+            "src": "package.json",
             "use": "@vercel/static-build"
         }
     ]
